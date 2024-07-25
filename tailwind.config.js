@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    ".src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -10,10 +10,9 @@ export default {
         sans: ['Roboto', 'sans-serif']
       },
       gridTemplateColumns: {
-        '70/30': '70% 28%',
+        '70/30': '70% 30%',
       }
     },
   },
   plugins: [],
 }
-
